@@ -8,11 +8,15 @@ Write your answers inside this file, where it's indicated by the comments.
 
 <!-- Answer Starts Here -->
 
+We'd use the git clone command, followed by an SSH URL cloned from GitHub.
+
 <!-- Answer Ends Here -->
 
 2. OK, we just wrote some code. What command could we use to see a list of all the changes that have been made since the last commit?
 
 <!-- Answer Starts Here -->
+
+git diff
 
 <!-- Answer Ends Here -->
 
@@ -20,11 +24,15 @@ Write your answers inside this file, where it's indicated by the comments.
 
 <!-- Answer Starts Here -->
 
+git commit --amend
+
 <!-- Answer Ends Here -->
 
 4. It looks like there was a change on the original repo that we forked from. How could we grab those changes and incorporate them into our local repo?
 
 <!-- Answer Starts Here -->
+
+We'd need to pull from upstream and merge the changes from upstream into our version.
 
 <!-- Answer Ends Here -->
 
@@ -32,11 +40,15 @@ Write your answers inside this file, where it's indicated by the comments.
 
 <!-- Answer Starts Here -->
 
+git checkout HEAD~3
+
 <!-- Answer Ends Here -->
 
 6. OK, we've done all the work we want to do locally. Let's update our fork so that we can make a pull request. What command would we use to update our fork?
 
 <!-- Answer Starts Here -->
+
+git push origin master
 
 <!-- Answer Ends Here -->
 

@@ -26,7 +26,7 @@ git checkout --HEAD~3
 
 6. OK, we've done all the work we want to do locally. Let's update our fork so that we can make a pull request. What command would we use to update our fork?
 
-git push origin
+git push origin master
 <hr>
 
 You're done! Refer back to README.md.

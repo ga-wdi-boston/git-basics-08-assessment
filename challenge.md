@@ -24,7 +24,7 @@ Write your answers inside this file, where it's indicated by the comments.
 
 4. It looks like there was a change on the original repo that we forked from. How could we grab those changes and incorporate them into our local repo?
 
-<!-- Answer Starts Here -->origin
+<!-- Answer Starts Here -->origin...not sure.
 
 <!-- Answer Ends Here -->
 
@@ -36,7 +36,7 @@ Write your answers inside this file, where it's indicated by the comments.
 
 6. OK, we've done all the work we want to do locally. Let's update our fork so that we can make a pull request. What command would we use to update our fork?
 
-<!-- Answer Starts Here -->git push origin, then submit a pull request.
+<!-- Answer Starts Here -->git push, pull request on github.
 
 <!-- Answer Ends Here -->
 

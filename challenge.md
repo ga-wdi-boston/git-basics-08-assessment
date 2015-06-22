@@ -11,7 +11,7 @@ git clone yourclonedgit@somewhereongithub
 
 2. OK, we just wrote some code. What command could we use to see a list of all the changes that have been made since the last commit?
 
-We could use git status.
+We could use git status
 
 3. Oops - it looks like there was a change that we forgot to include in our last commit. How can we revise that commit and fix things?
 
@@ -19,7 +19,7 @@ We could go back and say git commit --ammend
 
 4. It looks like there was a change on the original repo that we forked from. How could we grab those changes and incorporate them into our local repo?
 
-Go back to fork and clone it all over again or hit git fetch upstream
+git fetch upstream
 
 5. Suppose that we wanted to look at the third-to-last commit on `master`; what command(s) would we write to do that?
 
@@ -27,8 +27,7 @@ git checkout head~2
 
 6. OK, we've done all the work we want to do locally. Let's update our fork so that we can make a pull request. What command would we use to update our fork?
 
-You must create a branch and then add commits to the branch. Once that is done you can make a pull request.
-
+You must create a branch and then add commits to the branch. You should push the code to the master. After that you go to Github.com and request a pull.
 <hr>
 
 You're done! Refer back to README.md.
